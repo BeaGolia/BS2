@@ -1,11 +1,11 @@
-// src/main.js
+
 import axios from 'axios';
 import _ from 'lodash';
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchButton = document.getElementById('searchButton');
     if (searchButton) {
-        searchButton.addEventListener('click', _.debounce(searchBooks, 300)); // Utilizza lodash per evitare chiamate multiple
+        searchButton.addEventListener('click', _.debounce(searchBooks, 300)); 
     }
 });
 
@@ -33,7 +33,7 @@ async function searchBooks() {
 
         data.works.forEach(work => {
             const bookDiv = document.createElement('div');
-            bookDiv.classList.add('book-item'); // Classe per lo stile
+            bookDiv.classList.add('book-item'); 
 
             const imgURL = work.cover_id 
                 ? `https://covers.openlibrary.org/b/id/${work.cover_id}-L.jpg`
