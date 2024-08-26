@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5f201367f49d70a2d2e22030bb5654ba1a67a477
 import axios from 'axios';
 import _ from 'lodash';
 
