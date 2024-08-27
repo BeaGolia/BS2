@@ -7,8 +7,10 @@ This is a simple web application that allows users to search for books by catego
 
 ## Table of Contents
 - Features
-- Usage
 - Technologies Used
+- Installation
+- Deployment
+- Usage
 - Contributions
 
 
