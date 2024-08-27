@@ -56,4 +56,4 @@ The application will display a list of books matching the category.
 Click on "Show Description" to view more details about a book.
 
 ## Contributions
-Feel free to modify any sections as needed. This README provides a clear overview of your project and helps others understand how to use and contribute to it.
+Feel free to modify any sections as needed. 
