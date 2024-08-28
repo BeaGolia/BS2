@@ -49,6 +49,7 @@ button:active {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   line-height: 30px;
+  
 }
 #results div {
   width: 100%;
@@ -56,6 +57,7 @@ button:active {
   align-items: center;
   margin-bottom: 20px;
   padding: 10px;
+  max-width: 97%; 
 }
 #results img {
   width: 100px;
