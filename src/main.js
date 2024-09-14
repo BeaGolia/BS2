@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function searchBooks() {
-    const category = document.getElementById('categoryInput').value.trim();
+    const category = document.getElementById('categoryInput').value.trim().toLowerCase();
 
     if (!category) {
         alert('Please insert a category to search for.');
@@ -71,6 +71,9 @@ async function showDescription(bookKey) {
         descriptionDiv.innerHTML = data.description 
             ? (typeof data.description === 'string' ? data.description : data.description.value)
             : 'Description unavailable';
+
+        descriptionDiv.scrollIntoView({ behavior: 'smooth' });
+
     } catch (error) {
         console.error('Error fetching book description:', error);
         alert('An error occurred while fetching the description. Please try again.');
