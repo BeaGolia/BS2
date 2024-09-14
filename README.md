@@ -59,3 +59,6 @@ Click on "Show Description" to view more details about a book.
 
 ## Contributions
 Feel free to modify any sections as needed. 
+
+## Link
+[Project](https://beagolia.github.io/BookSearch/).
