@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function searchBooks() {
-    const category = document.getElementById('categoryInput').value.trim().toLowerCase();
+    const category = document.getElementById('categoryInput').value.trim().toLowerCase(); // Converti l'input in minuscolo
 
     if (!category) {
         alert('Please insert a category to search for.');
